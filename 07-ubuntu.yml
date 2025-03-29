@@ -5,7 +5,7 @@
 
   tasks:
     - name: Install Apache2
-      aot:
+      apt:
         name: apache2
         state: present
 
