@@ -10,13 +10,13 @@
         state: present
       when: ansible_distribution == "Amazon" or ansible_distribution == "Centos"
 
-    - name: start httpd
+    - name: start Httpd
       service:
         name: httpd
         state: started
       when: ansible_distribution == "Amazon"  or ansible_distribution == "Centos"
 
-    - name: Enable httpd
+    - name: Enable Httpd
       service:
         name: httpd
         enabled: yes
