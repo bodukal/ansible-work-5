@@ -3,7 +3,7 @@
   hosts: g1
   become: yes
   vars: 
-  mysudername: bodukal
+    mysudername: bodukal
 
   tasks:
     - name: Update dynamic page
